@@ -1,0 +1,34 @@
+{
+    "name": "zeroibc/video-qiniu-upload",
+    "description": "An extension of laravel-admin for uploading video to qiniu",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension"],
+    "homepage": "https://github.com/zeroibc/video-qiniu-upload",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zeroibc",
+            "email": "zeroibc@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zero\\LargeFileUpload\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zero\\VideoQiniuUpload\\VideoQiniuUploadServiceProvider"
+            ]
+
+        }
+    }
+}
