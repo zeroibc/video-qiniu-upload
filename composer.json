@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Zero\\LargeFileUpload\\": "src/"
+            "Zero\\VideoQiniuUpload\\": "src/"
         }
     },
     "extra": {
